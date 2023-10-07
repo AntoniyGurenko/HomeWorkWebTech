@@ -1,0 +1,37 @@
+body{
+	background-color: #bc8f8f ;
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1{
+	margin: 40px 0px;
+	color: #5a4646;
+}
+
+p{
+	color: #211b1b;
+}
+h2{
+	color: #5a4646;
+}
+
+a{
+	color: #211b1b;
+}
+a:hover{
+	color:white;
+}
+
+img{
+	width: 400px;
+	margin: 0 0 70px 25%;
+}
+.basta{
+	height: 600px;
+}
+
+
+li{
+	margin: 10px 0;
+}
