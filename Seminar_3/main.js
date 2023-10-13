@@ -5,7 +5,7 @@
 
 
 function greeting(nameStr) {
-    alert(`Привет, ${nameStr}! `);
+    console.log(`Привет, ${nameStr}! `);
 }
 
 const name = prompt("Введите ваше имя");
