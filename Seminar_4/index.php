@@ -29,21 +29,21 @@ $skills = [
 
 $experience = [
     [
-        'job' => 'Front End Developer',
+        'job' => 'Фронтенд разработчик',
         'site' => ' ',
         'dateStart' => 'Январь 2015',
         'dateEnd' => 'В данное время',
         'description' => 'Тект рыба, это текст рыба, текст рыба это, текст рыба это, рыба текст это, это рыба текст, рыба это текст'
     ],
     [
-        'job' => 'Web Developer',
+        'job' => 'Веб-разработчик',
         'site' => 'something.com',
         'dateStart' => 'Март 2012',
         'dateEnd' => 'Декабрь 2014',
-        'description' => 'Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.'
+        'description' => 'Я капец какой крутой веб-разработчик, вы просто опупеете когда меня наймёте - всё сделаю в лучшем виде, ребята, не пожалеете!'
     ],
     [
-        'job' => 'Graphic Designer',
+        'job' => 'Графический дизайнер',
         'site' => 'designsomething.com',
         'dateStart' => 'Июнь 2010',
         'dateEnd' => 'Март 2012',
@@ -161,7 +161,7 @@ $experience = [
               
           <?php for ($i = 0; $i < count($experience); $i++) :?>    
           <div class="w3-container">
-            <h5 class="w3-opacity"><b><?php echo $experience[$i]['job']?></b><?php if($i != 0) {echo " / "; echo $experience[$i]['site'];}?></h5> <!--  я хотел сделать чтобы он вставил тег <a> , но у меня не получилось...  -->
+            <h5 class="w3-opacity"><b><?php echo $experience[$i]['job']?></b><?php if($i != 0) {echo ' / <a href="#">'; echo $experience[$i]['site']; echo '</a>';}?></h5> <!--  я хотел сделать чтобы он вставил тег <a> , но у меня не получилось...  -->
             <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $experience[$i]['dateStart']?> - <span
                 class="w3-tag w3-teal w3-round"><?php echo $experience[$i]['dateEnd']?></span></h6>
             <p><?php echo $experience[$i]['description']?></p>
