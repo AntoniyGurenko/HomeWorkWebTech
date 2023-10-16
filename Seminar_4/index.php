@@ -161,7 +161,7 @@ $experience = [
               
           <?php for ($i = 0; $i < count($experience); $i++) :?>    
           <div class="w3-container">
-            <h5 class="w3-opacity"><b><?php echo $experience[$i]['job']?></b><?php if($i != 0) {echo ' / <a href="#">'; echo $experience[$i]['site']; echo '</a>';}?></h5> <!--  я хотел сделать чтобы он вставил тег <a> , но у меня не получилось...  -->
+            <h5 class="w3-opacity"><b><?php echo $experience[$i]['job']?></b><?php if($i != 0) {echo ' / <a href="#">'; echo $experience[$i]['site']; echo '</a>';}?></h5> <!--  я хотел сделать чтобы он вставил тег <a>  -->
             <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $experience[$i]['dateStart']?> - <span
                 class="w3-tag w3-teal w3-round"><?php echo $experience[$i]['dateEnd']?></span></h6>
             <p><?php echo $experience[$i]['description']?></p>
